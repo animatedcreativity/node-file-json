@@ -1,0 +1,26 @@
+{
+  "name": "node-file-json",
+  "version": "0.0.1",
+  "description": "Read JSON from a file and work on it dynamically. You can even use the JSON file as a small database. If file does not exist, one will be created for you.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "node-sanitize-options": "^0.0.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/animatedcreativity/node-file-json"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "file",
+    "JSON",
+    "dynamic",
+    "database"
+  ]
+}
