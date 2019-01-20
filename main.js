@@ -32,4 +32,4 @@ exports.fileJson = function() {
     }
   }
   return json;
-}
+};
