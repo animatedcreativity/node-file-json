@@ -22,7 +22,7 @@ exports.load = function(file, _options) {
 };
 exports.save = function(file) {
   if (typeof file === "undefined") file = loadedFile;
-  if (typeof loadedFile === "undefined") {
+  if (typeof file === "undefined") {
     console.log("No JSON file loaded. Please use .load() first.");
     return false;
   }
