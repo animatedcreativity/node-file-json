@@ -26,7 +26,5 @@ exports.save = function(file) {
     console.log("No JSON file loaded. Please use .load() first.");
     return false;
   }
-  var stream = fs.createWriteStream(file);
-  stream.write(JSON.stringify(exports.data, null, options.indent));
-  stream.end();
+  fs.writeFileSync(file, JSON.stringify(exports.data, null, options.indent), "utf-8");
 };
