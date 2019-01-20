@@ -1,4 +1,4 @@
-exports.fileJson = function() {
+module.exports = exports = function() {
   var fs = require("fs");
   var sanitize = require("node-sanitize-options");
   var loadedFile;

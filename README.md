@@ -7,7 +7,7 @@ Example on Runkit: https://runkit.com/animatedcreativity/5c447d555e32f40012a4273
 
 Load JSON file, if it does not exist, it will be created automatically.
 ```
-var fileJson = require("node-file-json").fileJson;
+var fileJson = require("node-file-json");
 var json = new fileJson();
 json.load("product.json");
 ```
