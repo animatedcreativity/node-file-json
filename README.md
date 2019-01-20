@@ -1,6 +1,8 @@
 # node-file-json
 Read JSON from a file and work on it dynamically. You can even use the JSON file as a small database. If file does not exist, one will be created for you.
 
+Example on Runkit: https://runkit.com/animatedcreativity/5c447d555e32f40012a4273e
+
 **Usage:**
 
 Load JSON file, if it does not exist, it will be created automatically.
