@@ -28,3 +28,9 @@ JSON in file is saved properly with indents. To modify indent value, add it to o
 ```
 json.load("product.json", {indent: 4});
 ```
+
+Clear JSON data
+
+```
+json.clear();
+```

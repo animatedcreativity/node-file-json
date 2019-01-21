@@ -29,6 +29,10 @@ module.exports = exports = function() {
         return false;
       }
       fs.writeFileSync(file, JSON.stringify(json.data, null, options.indent), "utf-8");
+    },
+    clear: function() {
+      json.data = {};
+      json.save();
     }
   }
   return json;
